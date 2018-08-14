@@ -1,0 +1,38 @@
+{
+  "name": "spin-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spin-promise.js",
+  "bin": {
+    "spin-promise": "bin/spin-promise"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "spin-promise.d.ts",
+  "files": [
+    "bin/",
+    "spin-promise.js",
+    "spin-promise.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorem--ipsum/spin-promise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorem--ipsum/spin-promise/issues"
+  },
+  "homepage": "https://github.com/lorem--ipsum/spin-promise#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "ora": "^3.0.0",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/ora": "^1.3.4"
+  }
+}
